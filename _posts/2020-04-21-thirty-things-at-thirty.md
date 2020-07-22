@@ -3,7 +3,7 @@ layout: post
 title:  "30 Things at Thirty"
 author: michael
 categories: [ Personal ]
-image: assets/images/30-things-at-thirty.jpg
+image: assets/images/posts/30-things-at-thirty.jpg
 comments: false
 featured: true
 excerpt: Having turned 30 this year, I set myself 30 achievable objectives, then a global pandemic happened. Here's that list...
