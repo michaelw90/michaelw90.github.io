@@ -7,7 +7,7 @@ comments: false
 
 <img class="author-thumb" style="width: 25%; height: auto; float: left" src="{{ site.baseurl }}/assets/images/authors/michael-twitter.jpg" alt="I'm Michael">
 
-Hi, I'm Michael a Head of Development working for a small business based in Manchester, Didsbury. In my spare time, I like to travel the world, watch TV shows & films, and socialise with friends & family while enjoying great food & drink.
+Hi, I'm Michael, a Head of Development working for a small business based in Manchester, UK. In my spare time, I like to travel the world, watch TV shows & films, and socialise with friends & family while enjoying great food & drink.
 
 Having started as a developer, I'm now responsible for a small development team working on large (and small) scale projects and applications. With extensive experience with architecting highly-scalable resilient solutions with AWS, and lots of experience with PHP, I'm not afraid to get my hands dirty. However, more recently I find myself hands-off focussing on removing blockers for my team, while ensuring a confident, stable delivery for all of our projects through a well structured development and continuous integration backed workflow.
 
