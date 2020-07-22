@@ -7,6 +7,7 @@ image: assets/images/posts/30-things-at-thirty.jpg
 thumb: assets/images/posts/30-things-at-thirty-thumbnail.jpg
 comments: false
 featured: true
+hidden: true
 excerpt: Having turned 30 this year, I set myself 30 achievable objectives, then a global pandemic happened. Here's that list...
 ---
 
@@ -20,13 +21,13 @@ Unfortunately, due to Coronavirus a lot of these things that were planned (or sc
 
 In no particular order:
 
-1. Complete a 5k
+1. [Complete a 5k]({{ site.baseurl }}/i-managed-to-run-5km) ✔️
 2. Complete a 10k
 3. Complete a 1/2 marathon
 4. Complete a marathon
 5. Go to an F1 race
 6. Visit Chernobyl
-7. Visit Dublin
+7. [Visit Dublin]({{ site.baseurl }}/i-should-be-in-dublin) 👎
 8. Go to Henley Regatta
 9. See the Northern Lights
 10. Be able to do 30 pull-ups
