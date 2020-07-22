@@ -11,6 +11,7 @@ mailchimp-list: false
 include: ["_pages"]
 permalink: /:title/
 future: false
+search: false
 
 # Authors
 authors:

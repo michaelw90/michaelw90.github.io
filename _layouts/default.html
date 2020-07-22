@@ -20,7 +20,9 @@
     <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
-    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    {% if site.search %}
+        <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    {% endif %}
 
 {% seo %}
 
@@ -78,9 +80,9 @@ ga('send', 'pageview');
                 <li class="nav-item">
                 <a class="nav-link" href="https://instagram.com/michael.w.90" title="Follow me on Instagram" rel="noreferrer noopener"><i class="fab fa-instagram"></i></a>
                 </li>
-
-                {% include search-lunr.html %}
-
+                {% if site.search %}
+                    {% include search-lunr.html %}
+                {% endif %}
             </ul>
 
         <!-- End Menu -->
