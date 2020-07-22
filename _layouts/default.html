@@ -65,19 +65,23 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}">Blog</a>
+                    <a class="nav-link" href="{{ site.baseurl }}">Blog</a>
+                </li>
+
+                {% if page.url == "/about" %}
+                <li class="nav-item active">
+                {% else %}
+                <li class="nav-item">
+                {% endif %}
+                    <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                    <a class="nav-link" href="https://twitter.com/michaelw90" title="Follow me on Twitter" rel="noreferrer noopener"><i class="fab fa-twitter"></i></a>
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="https://twitter.com/michaelw90" title="Follow me on Twitter" rel="noreferrer noopener"><i class="fab fa-twitter"></i></a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="https://instagram.com/michael.w.90" title="Follow me on Instagram" rel="noreferrer noopener"><i class="fab fa-instagram"></i></a>
+                    <a class="nav-link" href="https://instagram.com/michael.w.90" title="Follow me on Instagram" rel="noreferrer noopener"><i class="fab fa-instagram"></i></a>
                 </li>
                 {% if site.search %}
                     {% include search-lunr.html %}
