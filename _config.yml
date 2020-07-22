@@ -1,13 +1,13 @@
 # Site
 name: "Michael Wright"
 title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
+description: "A head of development working in Manchester, sharing his thoughts and reviews of day-to-day things in life."
 logo: 'assets/images/logo.svg'
 favicon: 'assets/images/favicon.png'
-baseurl: '' 
-google_analytics: ''
-disqus: ''
-mailchimp-list: ''
+baseurl: ''
+google_analytics: false
+disqus: false
+mailchimp-list: false
 include: ["_pages"]
 permalink: /:title/
 
