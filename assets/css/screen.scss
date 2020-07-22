@@ -907,7 +907,10 @@ iframe {
     position: sticky;
 }
 
-/** Font Awesome **/
+/**
+Font Awesome
+https://use.fontawesome.com/releases/v5.13.0/css/fontawesome.css 
+**/
 .fab {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -923,9 +926,9 @@ iframe {
 .fa-instagram:before {
     content: "\f16d"
 }
-.fa-linkedin:before {
-    content: "\f08c"
+.fa-linkedin-in:before{
+    content:"\f0e1"
 }
-.fa-facebook:before {
-    content: "\f09a"
+.fa-facebook-f:before{
+    content:"\f39e"
 }
