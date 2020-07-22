@@ -8,9 +8,9 @@
                     <div class="wrapthumbnail">
                         <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
                             {% if site.lazyimages == "enabled" %}
-                            <img alt="{{ post.title }}" class="featured-box-img-cover lazyimg"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.featured_image contains "://" %}{{ post.featured_image }}{% else %}{{ site.baseurl }}/{{ post.featured_image }}{% endif %}">
+                            <img alt="{{ post.title }}" class="featured-box-img-cover lazyimg"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.thumb contains "://" %}{{ post.thumb }}{% else %}{{ site.baseurl }}/{{ post.thumb }}{% endif %}">
                             {% else %}
-                            <img alt="{{ post.title }}" class="featured-box-img-cover" src="{% if post.featured_image contains "://" %}{{ post.featured_image }}{% else %}{{ site.baseurl }}/{{ post.featured_image }}{% endif %}">
+                            <img alt="{{ post.title }}" class="featured-box-img-cover" src="{% if post.thumb contains "://" %}{{ post.thumb }}{% else %}{{ site.baseurl }}/{{ post.thumb }}{% endif %}">
                             {% endif %}
                         </a>
                     </div>
