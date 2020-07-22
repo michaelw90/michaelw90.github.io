@@ -111,4 +111,4 @@ jQuery(document).ready(function($){
         $(this).removeClass('spoiler');
      });
     
-});
+ });
