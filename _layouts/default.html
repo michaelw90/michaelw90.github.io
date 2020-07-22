@@ -102,12 +102,14 @@ ga('send', 'pageview');
 
 <!-- Site Title
 ================================================== -->
+{% if page.layout != 'post' %}
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
+    <!--<p class="lead">
         {{ site.description }}
-    </p>
+    </p>-->
 </div>
+{% endif %}
 
 <!-- Content
 ================================================== -->
@@ -192,7 +194,7 @@ ga('send', 'pageview');
 
 <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script> 
 
-{% if page.layout == 'post' %}
+{% if page.layout == 'post' and page.comments != false %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
 

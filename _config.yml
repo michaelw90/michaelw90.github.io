@@ -6,7 +6,7 @@ logo: 'assets/images/logo.svg'
 favicon: 'assets/images/favicon.png'
 baseurl: ''
 google_analytics: false
-disqus: false
+disqus: ''
 mailchimp-list: false
 include: ["_pages"]
 permalink: /:title/
@@ -16,11 +16,11 @@ authors:
   michael:
     name: Michael Wright
     display_name: Michael
-    gravatar: Rcb61ec129fddd1c73befbb31d65e41f3
+    gravatar: 5b31c071fe85f983da70d571ce8a0cee
     email: spam@wserver.co.uk 
     web: https://instagram.com/michael.w.90
     twitter: https://twitter.com/michaelw90
-    description: ""
+    description: "This is my description test"
 
 # Plugins
 plugins:
