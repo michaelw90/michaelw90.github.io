@@ -31,7 +31,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
+sass:
+  style: compressed
+  
 # Archives
 jekyll-archives:
   enabled:
