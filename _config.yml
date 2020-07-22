@@ -10,6 +10,7 @@ disqus: ''
 mailchimp-list: false
 include: ["_pages"]
 permalink: /:title/
+future: false
 
 # Authors
 authors:
