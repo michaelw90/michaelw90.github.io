@@ -6,7 +6,7 @@ categories: [ personal ]
 image: assets/images/posts/buying-the-perfect-domain.jpg
 thumb: assets/images/posts/buying-the-perfect-domain-thumbnail.jpg
 comments: false
-excerpt: It's so hard nowadays to get a good domain, have I stumbled on the perfect domain for me?
+excerpt: It's so hard nowadays to get a good domain, have I finally stumbled on the perfect one for me?
 featured: true
 hidden: true
 ---
