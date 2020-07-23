@@ -2,6 +2,7 @@
 layout: page
 title: Who am I?
 permalink: /who-am-i
+image: assets/images/authors/michael-twitter.jpg
 comments: false
 ---
 
