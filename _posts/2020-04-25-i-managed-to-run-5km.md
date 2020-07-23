@@ -2,7 +2,7 @@
 layout: post
 title:  "I managed to run 5km!"
 author: michael
-categories: [ Personal, "Thirty Things" ]
+categories: [ personal, "thirty things" ]
 image: assets/images/posts/i-managed-to-run-5km.jpg
 thumb: assets/images/posts/i-managed-to-run-5km-thumbnail.jpg
 comments: false

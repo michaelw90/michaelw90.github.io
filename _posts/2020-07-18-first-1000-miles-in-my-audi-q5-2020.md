@@ -7,8 +7,6 @@ image: assets/images/posts/audi-q5-black-edition-1000-miles.jpg
 thumb: assets/images/posts/audi-q5-black-edition-1000-miles-thumbnail.jpg
 comments: false
 excerpt: One month on and after 1,000 miles, how does it comepare to my previous Audi TTS?
-rating: 4
-rated_item: car
 ---
 
 #### Preface

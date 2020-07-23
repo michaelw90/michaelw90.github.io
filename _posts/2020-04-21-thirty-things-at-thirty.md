@@ -2,7 +2,7 @@
 layout: post
 title:  "30 Things at Thirty"
 author: michael
-categories: [ Personal ]
+categories: [ personal ]
 image: assets/images/posts/30-things-at-thirty.jpg
 thumb: assets/images/posts/30-things-at-thirty-thumbnail.jpg
 comments: false

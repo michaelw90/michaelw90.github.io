@@ -2,7 +2,7 @@
 layout: post
 title:  "Hitting 100% in Lighthouse Accessibility Tests"
 author: michael
-categories: [ Development ]
+categories: [ development ]
 image: assets/images/posts/100-percent-in-lighthouse-accessibility.jpg
 thumb: assets/images/posts/100-percent-in-lighthouse-accessibility-thumbnail.jpg
 comments: false

@@ -2,7 +2,7 @@
 layout: post
 title:  "I should be in Dublin"
 author: michael
-categories: [ Personal, "Thirty Things" ]
+categories: [ personal, "thirty things" ]
 image: assets/images/posts/i-should-be-in-dublin.jpg
 thumb: assets/images/posts/i-should-be-in-dublin-thumbnail.jpg
 comments: false
