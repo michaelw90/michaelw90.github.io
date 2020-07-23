@@ -19,10 +19,36 @@
     font-family: "Font Awesome 5 Brands";
     font-weight: 400
 }
+/**
+Font Awesome
+https://use.fontawesome.com/releases/v5.13.0/css/fontawesome.css 
+**/
+.fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1
+}
+.fa-twitter:before {
+    content: "\f099"
+}
+.fa-instagram:before {
+    content: "\f16d"
+}
+.fa-linkedin-in:before{
+    content:"\f0e1"
+}
+.fa-facebook-f:before{
+    content:"\f39e"
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "bootstrap",
-    "template"
+    "template",
+    "starsnonscss"
 ;

@@ -896,28 +896,22 @@ iframe {
     position: sticky;
 }
 
-/**
-Font Awesome
-https://use.fontawesome.com/releases/v5.13.0/css/fontawesome.css 
-**/
-.fab {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1
+.post-image-holder-right {
+    float: right;
+    width: 45%;
+    margin: 5px 0 5px 10px;
+    text-align: center;
 }
-.fa-twitter:before {
-    content: "\f099"
+.post-image-holder-left {
+    float: left;
+    width: 45%;
+    margin: 5px 10px 5px 0;
+    text-align: center;
 }
-.fa-instagram:before {
-    content: "\f16d"
+
+.post-image-holder-left span, .post-image-holder-right span {
+    color: rgba(0,0,0,0.55);
+    font-style: italic;
+    font-size: 0.8rem;
 }
-.fa-linkedin-in:before{
-    content:"\f0e1"
-}
-.fa-facebook-f:before{
-    content:"\f39e"
-}
+
