@@ -2,7 +2,7 @@
 layout: post
 title:  "The First 1,000 Miles in my Audi Q5"
 author: michael
-categories: [ Development ]
+categories: [ cars ]
 image: assets/images/posts/audi-q5-black-edition-1000-miles.jpg
 thumb: assets/images/posts/audi-q5-black-edition-1000-miles-thumbnail.jpg
 comments: false
