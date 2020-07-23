@@ -35,6 +35,11 @@ plugins:
 
 sass:
   style: compressed
+
+twitter:
+  username: michaelw90
+
+lang: en_GB
   
 # Archives
 jekyll-archives:
