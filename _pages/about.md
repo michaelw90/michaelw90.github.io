@@ -40,7 +40,8 @@ Looking at how technology is adapting and shifting around us is key to ensure th
 		    <div class="col-9 col-md-8 text-left">
 		    	<strong><a target="_blank" href="https://twitter.com/richbishop">Rich</a>:</strong>
 		        <blockquote>
-				  <p>&nbsp;</p>
+				  <p>Having known Michael for longer than I care to remember; he is, and always has been, a dependable and knowledgeable critical friend, when and where I’ve needed it. He has a wide breadth and depth of knowledge and can provide insight and opinions on business and technology problems, which then lead to far better solutions for all.</p>
+				  <p> I owe him huge thanks for the times he has helped me, and even saved me from disaster a few times -  and always in good humour and with a friendly smile on his face!</p>
 				</blockquote>
 		    </div>
 		</div>

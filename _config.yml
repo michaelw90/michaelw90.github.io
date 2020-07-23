@@ -5,7 +5,7 @@ description: "A head of development working in Manchester, sharing his thoughts 
 logo: 'assets/images/logo.svg'
 favicon: 'assets/images/favicon.png'
 baseurl: ''
-google_analytics: false
+google_analytics: 'UA-173391829-1'
 disqus: ''
 mailchimp-list: false
 include: ["_pages"]
