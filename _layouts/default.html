@@ -6,20 +6,17 @@
 
 {% seo %}
 
+    <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i&display=swap">
-
     <link href="{{ site.baseurl }}/assets/css/site.css" rel="stylesheet">
     {% if page.layout == 'post' %}  
     <link href="{{ site.baseurl }}/assets/css/extra.css" rel="stylesheet">
     {% endif %}
     {% if site.search %}
-        <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
     {% endif %}
-
-    <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png">
-
 </head>
 
 {% if jekyll.environment == 'production' and site.google_analytics %}
