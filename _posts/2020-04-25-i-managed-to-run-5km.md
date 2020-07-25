@@ -7,7 +7,7 @@ image: assets/images/posts/i-managed-to-run-5km.jpg
 thumb: assets/images/posts/i-managed-to-run-5km-thumbnail.jpg
 comments: false
 featured: false
-excerpt: Starting to work my way through the list of thirty things, I've completed a 5km run...
+excerpt: Starting to work my way through the list of thirty things, I've completed a 5km run!
 ---
 
 #### Preface

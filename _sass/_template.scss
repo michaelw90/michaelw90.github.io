@@ -914,4 +914,14 @@ iframe {
     font-style: italic;
     font-size: 0.8rem;
 }
-
+.post-footer-note {
+    font-size: 0.8rem;
+    color: rgba(0,0,0,0.55);
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
