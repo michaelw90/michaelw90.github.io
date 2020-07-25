@@ -5,7 +5,7 @@ author: michael
 categories: [ development ]
 thumb: assets/images/posts/curl-with-php.jpg
 comments: false
-excerpt: "cURL is a great tool used extensively when dealing with APIs and 3rd party applications, a very simple introduction to GET and POST requests in cURL with PHP."
+excerpt: "A very simple introduction to GET and POST requests with cURL in PHP."
 ---
 
 #### Preface
