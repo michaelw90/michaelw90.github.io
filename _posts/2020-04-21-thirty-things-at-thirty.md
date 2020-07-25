@@ -44,7 +44,7 @@ In no particular order:
 21. Meet someone famous
 22. Reconnect with old friend
 23. Go on a cruise
-24. Do a talk at an event.
+24. Do a talk at an event
 25. Cirque du Soleil 
 26. Wimbledon
 27. Michelin Star Meal
@@ -53,6 +53,6 @@ In no particular order:
 30. Santorini sunset
 
 
-In retrospect, looking at that list, a fair few are no longer possible as the opportunity simply doesn't exist anymore (eg. Wimbleno, Pride Events, Geneva Motorshow, F1 Race). 
+In retrospect, looking at that list, a fair few are no longer possible as the opportunity simply doesn't exist anymore (eg. Wimbledon, Pride Events, Geneva Motorshow, F1 Race). 
 
 Anyway, I'll work through as much of the list as possible ahead of the end of my 30s, and see what other things I can add on as well.
