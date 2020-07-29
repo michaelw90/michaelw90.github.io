@@ -6,6 +6,7 @@ categories: [ development ]
 thumb: assets/images/posts/curl-with-php.jpg
 comments: false
 excerpt: "A very simple introduction to GET and POST requests with cURL in PHP."
+hidden: true
 ---
 
 #### Preface
