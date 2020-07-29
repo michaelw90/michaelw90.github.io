@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hiding Home Screens on iOS 14 Helped Me Reduce Anxiety"
+title:  "Hiding Home Screens on iOS 14 Helped Reduce My Anxiety"
 author: michael
 categories: [ personal, technology, apple ]
 image: assets/images/posts/ios-14-switch-home-screen-off.jpg
