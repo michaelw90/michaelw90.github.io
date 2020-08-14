@@ -100,7 +100,7 @@
                 </div>
     		</div>
     		<div class="col-md-8 p-5 align-self-center text-center">
-                {% assign categories_list = site.categories %}
+                {% assign categories_list = site.categories | sort %}
                 {% if categories_list.first[0] == null %}
                     {% for category in categories_list %}
                         <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
