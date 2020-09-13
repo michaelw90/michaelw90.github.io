@@ -8,6 +8,7 @@ comments: false
 excerpt: "Nearly every site that you visit nowadays has some sort of database storage in place, many sites opt to use MySQL databases when using PHP. But are you interacting with your databases correctly?"
 hidden: true
 ---
+
 #### Introduction
 
 Sending notifications to an iOS Application can enhance the experience exponentially for users, also it allows you to deliver key data easily. However, actually sending the push notification to users can be a bit tedious at times, and at times confusing. You need to ensure that you pack your integers, and times correctly - failing to do this and you'll probably get an unhelpful status from Apple. 
