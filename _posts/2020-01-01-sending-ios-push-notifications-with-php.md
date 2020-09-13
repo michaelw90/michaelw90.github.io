@@ -52,11 +52,11 @@ With id of **2**, this is the payload that we're sending, so before we can actua
 
 ```php
 $payload = json_encode([
-	'aps' => [
-		'alert' => 'Hello World',
-		'sound' => 'default',
-		'badge' => 1
-	]
+    'aps' => [
+        'alert' => 'Hello World',
+        'sound' => 'default',
+        'badge' => 1
+    ]
 ]);
 ```
 
@@ -120,34 +120,34 @@ With the items constructed, we now need to define the rest of the notification, 
 
 ```php
 $inner = 
-	  chr(1)
-	. pack('n', 32)
-	. pack('H*', $token->value)
+      chr(1)
+    . pack('n', 32)
+    . pack('H*', $token->value)
 
-	. chr(2)
-	. pack('n', strlen($payload))
-	. $payload
+    . chr(2)
+    . pack('n', strlen($payload))
+    . $payload
 
-	. chr(3)
-	. pack('n', 4)
-	. pack('N', $token->id)
+    . chr(3)
+    . pack('n', 4)
+    . pack('N', $token->id)
 
-	. chr(4)
-	. pack('n', 4)
-	. pack('N', time() + 86400)
+    . chr(4)
+    . pack('n', 4)
+    . pack('N', time() + 86400)
 
-	. chr(5)
-	. pack('n', 1)
-	. chr(10);
+    . chr(5)
+    . pack('n', 1)
+    . chr(10);
 ```
 
 With that, we can construct the rest, which is a command value of *2*, followed by the length of the `$inner` and then the actual `$inner` value: 
 
 ```php
 $notification = 
-	  chr(2)
-	. pack('N', strlen($inner))
-	. $inner;
+      chr(2)
+    . pack('N', strlen($inner))
+    . $inner;
 ```
 
 Now we'll be sending, and using `$notification` to send to Apple - to send we're going to streaming the notifications, instead of sending via Curl. 
@@ -158,9 +158,9 @@ We need to connect to the APNS, identify our certificate (along with passphrase)
 
 ```php
 if ($production) {
-	$gateway = 'gateway.push.apple.com:2195';
+    $gateway = 'gateway.push.apple.com:2195';
 } else { 
-	$gateway = 'gateway.sandbox.push.apple.com:2195';
+    $gateway = 'gateway.sandbox.push.apple.com:2195';
 }
 
 // Create a Stream
@@ -172,12 +172,12 @@ stream_context_set_option($ctx, 'ssl', 'passphrase', 'codular-test');
 
 // Open a connection to the APNS server
 $fp = stream_socket_client(
-	$gateway, $err,
-	$errstr, 60, STREAM_CLIENT_CONNECT|STREAM_CLIENT_PERSISTENT, $ctx);
+    $gateway, $err,
+    $errstr, 60, STREAM_CLIENT_CONNECT|STREAM_CLIENT_PERSISTENT, $ctx);
 
 // Check that we've connected
 if (!$fp) {
-	die("Failed to connect: $err $errstr");
+    die("Failed to connect: $err $errstr");
 }
 
 // Ensure that blocking is disabled
@@ -187,7 +187,7 @@ stream_set_blocking($fp, 0);
 $result = fwrite($fp, $notification, strlen($notification));
 
 // Close the connection to the server
-	fclose($fp);	
+    fclose($fp);    
 ```
 
 #### Conclusion
