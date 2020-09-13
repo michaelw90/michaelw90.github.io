@@ -1,7 +1,7 @@
 # Site
 name: "Michael Wright"
 title: "Michael Wright"
-description: "A place for me to share my thoughts and reviews."
+description: "My thoughts on day-to-day life, technology and software development."
 logo: 'assets/images/logo.svg'
 favicon: 'assets/images/favicon.png'
 baseurl: ''
