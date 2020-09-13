@@ -35,16 +35,16 @@ As mentioned above, we then have actions that are triggered. Our action in this 
 
 There is a workflow editor that you can use, which if you're getting started is very simple to use. However, it might be easier to copy & past the code into the relevant file below, to get the linting running.  Workflows sit within the `.github` folder and we're going to call ours `main.workflow`. The code:
 
+```php
+workflow "PHP Linting" {
+  resolves = ["Execute"]
+  on = "pull_request"
+}
 
-    workflow "PHP Linting" {
-      resolves = ["Execute"]
-      on = "pull_request"
-    }
-
-    action "Execute" {
-      uses = "michaelw90/php-lint@master"
-    }
-
+action "Execute" {
+  uses = "michaelw90/php-lint@master"
+}
+```
 
 This creates a new workflow with one action, the workflow is triggered off "pull_request" and then executes the action that we mentioned above. There are no commands, or similar to change here, just a very straight forward workflow to lint your code.
 

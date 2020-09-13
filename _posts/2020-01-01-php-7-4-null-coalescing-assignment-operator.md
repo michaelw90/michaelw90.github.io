@@ -18,11 +18,15 @@ With PHP 7.4 upcoming, it's time to start exploring some of the new features tha
 
 In PHP 7 this was originally released, allowing a developer to simplify an `isset()` check combined with a ternary operator. For example, before PHP 7, we might have this code:
 
-    $data['username'] = (isset($data['username']) ? $data['username'] : 'guest');
+```php
+$data['username'] = (isset($data['username']) ? $data['username'] : 'guest');
+```
 
 When PHP 7 was released, we got the ability to instead write this as:
 
-    $data['username'] = $data['username'] ?? 'guest';
+```php
+$data['username'] = $data['username'] ?? 'guest';
+```
 
 Now, however, when PHP 7.4 gets released, this can be simplified even further into: 
 
@@ -33,11 +37,15 @@ One case where this doesn't work is if you're looking to assign a value to a dif
 
 So for example, this code from before PHP 7 could only be optimised once using the null coalescing operator, and not the assignment operator:
 
-    $username = (isset($_SESSION['username']) ? $_SESSION['username'] : 'guest');
+```php
+$username = (isset($_SESSION['username']) ? $_SESSION['username'] : 'guest');
+```
 
-becomes&hellip;
+becomes…
 
+```php
     $username = $_SESSION['username'] ?? 'guest';
+```
 
 <div class='post-footer-note'>
 Note: This post was originally posted on Codular.com, but has since been migrated over.
