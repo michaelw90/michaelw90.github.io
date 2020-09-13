@@ -5,7 +5,7 @@ author: michael
 categories: [ development ]
 thumb: assets/images/posts/codular-posts.jpg
 comments: false
-excerpt: "A brief look at one of the new features arriving in PHP 7.4, the ability to use the null coalescing operator on assignment. "
+excerpt: "A brief look at one of the new features arriving in PHP 7.4, the ability to use the null coalescing operator on assignment."
 hidden: true
 ---
 
@@ -13,8 +13,8 @@ hidden: true
 
 With PHP 7.4 upcoming, it's time to start exploring some of the new features that will be arriving alongside it. Here we cover the enhancements around the _null coalescing operator_, namely the introduction of the null coalescing assignment operator. (Sometimes referred to as the "null coalesce equal operator")
 
-## Basics
 
+#### Basics
 
 In PHP 7 this was originally released, allowing a developer to simplify an `isset()` check combined with a ternary operator. For example, before PHP 7, we might have this code:
 
