@@ -3,7 +3,7 @@ layout: post
 title:  "Getting Started with cURL Requests in PHP"
 author: michael
 categories: [ development ]
-thumb: assets/images/posts/curl-with-php.jpg
+thumb: assets/images/posts/codular-posts.jpg
 comments: false
 excerpt: "A very simple introduction to GET and POST requests with cURL in PHP."
 hidden: true
