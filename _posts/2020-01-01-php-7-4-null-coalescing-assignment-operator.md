@@ -30,8 +30,9 @@ $data['username'] = $data['username'] ?? 'guest';
 
 Now, however, when PHP 7.4 gets released, this can be simplified even further into: 
 
-    $data['username'] ??= 'guest';
-
+```php
+$data['username'] ??= 'guest';
+```
 
 One case where this doesn't work is if you're looking to assign a value to a different variable, so you'd be unable to use this new option. As such, while this is welcomed there might be a few limited use cases. 
 
@@ -44,7 +45,7 @@ $username = (isset($_SESSION['username']) ? $_SESSION['username'] : 'guest');
 becomes…
 
 ```php
-    $username = $_SESSION['username'] ?? 'guest';
+$username = $_SESSION['username'] ?? 'guest';
 ```
 
 <div class='post-footer-note'>
