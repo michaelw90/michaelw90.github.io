@@ -1,7 +1,7 @@
 # Site
 name: "Michael Wright"
 title: "Michael Wright"
-description: "I'm a passionate head of development working in Manchester, sharing my thoughts and reviews of day-to-day life."
+description: "A place for me to share my thoughts and reviews."
 logo: 'assets/images/logo.svg'
 favicon: 'assets/images/favicon.png'
 baseurl: ''
