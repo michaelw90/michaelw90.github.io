@@ -11,7 +11,7 @@ hidden: true
 
 #### Preface
 
-Nowadays, people love doing things without leaving the page they're viewing, this is mostly done using AJAX. Many times people use jQuery to make it easier, but with the advances in browsers, there's no real need for this. Here we'll be looking at how to upload a file to the server without leaving the page, we'll be using the same backend PHP code that was used in one of our [earlier articles](http://codular.com/php-file-uploads). 
+Nowadays, people love doing things without leaving the page they're viewing, this is mostly done using AJAX. Many times people use jQuery to make it easier, but with the advances in browsers, there's no real need for this. Here we'll be looking at how to upload a file to the server without leaving the page, we'll be using the same backend PHP code that was used in one of our [earlier articles](https://michael.wright.uk/php-file-uploads). 
 
 The script will upload a file to the server, show a progress bar highlighting how much has been completed, and then finally return a link to the uploaded file. In some cases, you might want to return an id of the file that you uploaded, or something else for your application.
 
