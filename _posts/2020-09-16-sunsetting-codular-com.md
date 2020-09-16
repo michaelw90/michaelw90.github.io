@@ -22,8 +22,6 @@ I've not had the time recently (or motivation) to keep writing articles in a way
 
 Additionally, I have found myself taking more of a step back from active development to a more hands-off role, and as such my experiences don't lend themselves well to a website dedicated to development educational articles. 
 
-Instead I'll be posting on here, updates to things I'm working on, experiences I'm enjoying, the life I'm living, and the problems that I overcome on the journey. 
-
 I have migrated some of the key articles over to this site that many people loved, and that trended highly in search results or had regular and frequent traffic as per Google Analytics. If you're reading this, and missing one of those articles, please feel free to reach out to me on Twitter and I'll migrate it over to here for you.
 
 #### Thanks
