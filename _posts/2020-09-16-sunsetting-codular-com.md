@@ -3,7 +3,7 @@ layout: post
 title:  "I am sunsetting codular.com"
 author: michael
 categories: [ development ]
-image: assets/images/posts/codular-posts.jpg
+image: assets/images/posts/sunsetting-codular.jpg
 thumb: assets/images/posts/codular-posts.jpg
 comments: false
 featured: false
