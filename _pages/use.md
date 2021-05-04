@@ -4,6 +4,7 @@ title: Uses
 permalink: /uses
 image: assets/images/pages/samsung-49-super-ultra-wide-michael-wright.jpg
 comments: false
+excerpt: "A list of the hardware that I use day-to-day, mostly focussed around the Apple ecosystem."
 ---
 <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
 
